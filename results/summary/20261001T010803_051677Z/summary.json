@@ -1,0 +1,19 @@
+{
+  "task": "clean_a_kitchen_sink__with_blender",
+  "planner": "authors_reference_plan",
+  "reference_checks_passed": true,
+  "checks": {
+    "evaluation_finished": true,
+    "all_reference_steps_recorded": true,
+    "no_action_errors": true,
+    "sink_cleaned": true,
+    "safe_before_wiping": true,
+    "initial_views_saved": true
+  },
+  "process_returncode": -11,
+  "clean_shutdown": false,
+  "segmentation_fault_after_saved_evaluation": true,
+  "last_phase": "evaluation_saved",
+  "report": "/content/isbench_reference_runs/20261001T010803_051677Z/report.json",
+  "scope": "one reference episode; not a model benchmark score"
+}

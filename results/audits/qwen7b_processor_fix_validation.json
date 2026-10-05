@@ -1,0 +1,44 @@
+{
+  "processor": {
+    "checkpoint_image_processor_type": "Qwen2_5_VLImageProcessor",
+    "loaded_image_processor_class": "Qwen2VLImageProcessor",
+    "loaded_processor_class": "Qwen2_5_VLProcessor",
+    "min_pixels": 200704,
+    "max_pixels": 401408,
+    "preprocessor_config_sha256": "da11d0981bfc3d97ea8fb502cea8a19c5492b31c21dd220abe8623413296755f",
+    "chat_template_file_sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+    "compatibility_fix": "explicit Qwen2VLImageProcessor with original multimodal template"
+  },
+  "five_views_processed": true,
+  "input_tokens": 2433,
+  "image_grid_thw": [
+    [
+      1,
+      32,
+      60
+    ],
+    [
+      1,
+      32,
+      60
+    ],
+    [
+      1,
+      32,
+      60
+    ],
+    [
+      1,
+      32,
+      60
+    ],
+    [
+      1,
+      32,
+      60
+    ]
+  ],
+  "original_error_reproduced": true,
+  "checkpoint_files_unchanged": true,
+  "validation": "CPU processor test only; no model/GPU inference"
+}

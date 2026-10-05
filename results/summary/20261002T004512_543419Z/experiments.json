@@ -1,0 +1,22 @@
+[
+  {
+    "name": "initial__original",
+    "snapshot": "initial",
+    "condition": "original"
+  },
+  {
+    "name": "initial__with_state_facts",
+    "snapshot": "initial",
+    "condition": "with_state_facts"
+  },
+  {
+    "name": "after_failed_wipe__original",
+    "snapshot": "after_failed_wipe",
+    "condition": "original"
+  },
+  {
+    "name": "after_failed_wipe__with_state_facts",
+    "snapshot": "after_failed_wipe",
+    "condition": "with_state_facts"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "revision": "bfb8829e3c6c0ebad5da954181947bb9df50b0e0",
+  "model_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/bfb8829e3c6c0ebad5da954181947bb9df50b0e0",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "gpu": "NVIDIA L4",
+  "versions": {
+    "transformers": "4.51.3",
+    "accelerate": "1.6.0",
+    "qwen-vl-utils": "0.0.11",
+    "bitsandbytes": "0.45.5",
+    "huggingface-hub": "0.30.2",
+    "omnigibson": "1.1.1",
+    "isaacsim": "4.1.0.0",
+    "boto3": "1.28.61",
+    "botocore": "1.31.61",
+    "s3transfer": "0.7.0"
+  },
+  "quantization": {
+    "load_in_4bit": true,
+    "format": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16",
+    "unquantized_modules": [
+      "visual",
+      "lm_head"
+    ]
+  },
+  "generation": {
+    "max_new_tokens": 192,
+    "do_sample": false,
+    "attention": "sdpa"
+  },
+  "image_pixels": {
+    "min": 200704,
+    "max": 401408
+  },
+  "scope": "quantized 7B V3 convenience pilot; not exact paper precision",
+  "processor": {
+    "checkpoint_image_processor_type": "Qwen2_5_VLImageProcessor",
+    "loaded_image_processor_class": "Qwen2VLImageProcessor",
+    "loaded_processor_class": "Qwen2_5_VLProcessor",
+    "min_pixels": 200704,
+    "max_pixels": 401408,
+    "preprocessor_config_sha256": "da11d0981bfc3d97ea8fb502cea8a19c5492b31c21dd220abe8623413296755f",
+    "chat_template_file_sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+    "compatibility_fix": "explicit Qwen2VLImageProcessor with original multimodal template"
+  },
+  "processor_preflight": {
+    "five_views_processed": true,
+    "input_tokens": 2433,
+    "image_grid_thw": [
+      [
+        1,
+        32,
+        60
+      ],
+      [
+        1,
+        32,
+        60
+      ],
+      [
+        1,
+        32,
+        60
+      ],
+      [
+        1,
+        32,
+        60
+      ],
+      [
+        1,
+        32,
+        60
+      ]
+    ]
+  }
+}

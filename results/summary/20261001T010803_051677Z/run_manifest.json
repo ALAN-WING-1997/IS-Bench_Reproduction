@@ -1,0 +1,11 @@
+{
+  "task": "clean_a_kitchen_sink__with_blender",
+  "scene": "Rs_int",
+  "repo_commit": "6a406e162feca1c4c455d9c9f1f58832edbdc1fd",
+  "scene_sha256": "2dbb4bc7ee692ee32c9097b1127f1ca2d1ac001a759c04a1278ad5e999c7918e",
+  "scene_archive_sha256": "0552f5108db89bbfd4e9f5b046634b64c61c1aa48c13d52c638fc1c47cf6296d",
+  "runner_sha256": "b77d115ce5558f99a691f51e286944d76911fb866d956219874600c108b943ae",
+  "planner": "authors_reference_plan",
+  "api_judging": "disabled",
+  "scope": "one reference episode; not a model benchmark score"
+}

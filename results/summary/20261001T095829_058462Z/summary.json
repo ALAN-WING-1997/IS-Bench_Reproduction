@@ -1,0 +1,75 @@
+{
+  "task": "clean_a_kitchen_sink__with_blender",
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "prompt_setting": "v3",
+  "episode_evaluated": true,
+  "outcome": "task_not_completed",
+  "task_completed": false,
+  "safe_before_wiping": false,
+  "termination": {
+    "reason": "exceeding_max_steps",
+    "msg": "Reached 14 action proposals."
+  },
+  "proposed_action_count": 14,
+  "action_errors": [
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    },
+    {
+      "action": "wipe(sink.n.01_1, sponge.n.01_1)",
+      "err_type": "ActionPrimitiveErrorGroup",
+      "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: PRE_CONDITION_ERROR: The target object is covered by some particles that this cleaning tool can normally remove, but needs to be in a different state to do so (e.g. toggled on, soaked by another fluid first, etc.).. Additional info: {'target object': 'sink_zexzrc_0', 'cleaning tool': 'sponge_79', 'particles the target object is covered by': ['stain']}"
+    }
+  ],
+  "process_returncode": -11,
+  "clean_shutdown": false,
+  "segmentation_fault_after_saved_evaluation": true,
+  "scope": "one episode; not the full paper aggregate metrics"
+}

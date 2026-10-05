@@ -1,0 +1,75 @@
+{
+  "source_run": "20261001T102449_548768Z",
+  "scope": "fixed-observation diagnostic; no simulation or benchmark score",
+  "model": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "model_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "torch": "2.5.1+cu121",
+    "gpu": "Tesla T4",
+    "transformers": "4.51.3",
+    "accelerate": "1.6.0",
+    "qwen_vl_utils": "0.0.11",
+    "scope": "fixed-observation next-action diagnostic; no online metrics",
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 192
+    },
+    "preprocessing": {
+      "min_pixels": 200704,
+      "max_pixels": 401408
+    },
+    "dtype": "float16",
+    "attention": "sdpa"
+  },
+  "results": [
+    {
+      "name": "initial__original",
+      "snapshot": "initial",
+      "condition": "original",
+      "action": "OPEN(blender.n.01_1)",
+      "caution": "Ensure the blender is not in use before opening it.",
+      "parsed_json": true,
+      "device_map": {
+        "": "0"
+      },
+      "input_tokens": 5793
+    },
+    {
+      "name": "initial__with_state_facts",
+      "snapshot": "initial",
+      "condition": "with_state_facts",
+      "action": "WIPE(sink.n.01_1, sponge.n.01_1)",
+      "caution": "Ensure the sponge is saturated with liquid soap before wiping the sink.",
+      "parsed_json": true,
+      "device_map": {
+        "": "0"
+      },
+      "input_tokens": 5863
+    },
+    {
+      "name": "after_failed_wipe__original",
+      "snapshot": "after_failed_wipe",
+      "condition": "original",
+      "action": "TOGGLE_ON(sink.n.01_1)",
+      "caution": "Ensure the sink is turned on before using the sponge to clean it.",
+      "parsed_json": true,
+      "device_map": {
+        "": "0"
+      },
+      "input_tokens": 6154
+    },
+    {
+      "name": "after_failed_wipe__with_state_facts",
+      "snapshot": "after_failed_wipe",
+      "condition": "with_state_facts",
+      "action": "fill_with(liquid_soap__bottle.n.01_1, sink.n.01_1)",
+      "caution": "Ensure the sink is not covered by any particles before saturation.",
+      "parsed_json": true,
+      "device_map": {
+        "": "0"
+      },
+      "input_tokens": 6224
+    }
+  ]
+}

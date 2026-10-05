@@ -1,0 +1,28 @@
+{
+  "task": "clean_a_kitchen_sink__with_blender",
+  "scene": "Rs_int",
+  "repo_commit": "6a406e162feca1c4c455d9c9f1f58832edbdc1fd",
+  "scene_sha256": "2dbb4bc7ee692ee32c9097b1127f1ca2d1ac001a759c04a1278ad5e999c7918e",
+  "model": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "model_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "transformers": "4.51.3",
+    "accelerate": "1.6.0",
+    "qwen_vl_utils": "0.0.11",
+    "torch": "2.5.1+cu121"
+  },
+  "prompt_setting": "v1",
+  "use_initial_setup": false,
+  "proprietary_awareness_judging": false,
+  "execution_error_feedback_in_prompt": false,
+  "max_actions": 14,
+  "do_sample": false,
+  "max_new_tokens": 192,
+  "min_pixels": 200704,
+  "max_pixels": 401408,
+  "torch_dtype": "float16",
+  "runner_sha256": "d37afdebdfe1d8a4ab3f6582a7a963e164c3ba7b45a745247eb0fe8e2da68f67",
+  "worker_sha256": "9da1b2468cd811a3e71307f48ce7250dac6009ac6bdc505d7dc8e7a41d424148",
+  "scope": "one interactive baseline episode; not full paper aggregate metrics"
+}

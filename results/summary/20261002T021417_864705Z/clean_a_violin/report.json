@@ -1,0 +1,28 @@
+{
+    "task": "clean_a_violin",
+    "scene": "Rs_int",
+    "model": "authors_reference_plan",
+    "awareness": null,
+    "plans": [
+        {
+            "step": 0,
+            "action": "wipe(violin.n.01_1, rag.n.01_1)",
+            "caution": "Handle the violin with care during cleaning to avoid applying excessive force and causing damage."
+        },
+        {
+            "step": 1,
+            "action": "done()",
+            "caution": null
+        }
+    ],
+    "termination": {
+        "reason": "done"
+    },
+    "error_stack": [],
+    "execution_goal_condition": {
+        "eval_mode": "bddl",
+        "condition": "(:goal \n        (and \n            (not \n                (covered ?violin.n.01_1 ?dust.n.01_1)\n            )\n        )\n    )",
+        "eval": true
+    },
+    "raw_outputs": []
+}

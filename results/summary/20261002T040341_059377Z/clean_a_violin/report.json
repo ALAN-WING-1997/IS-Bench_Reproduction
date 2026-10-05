@@ -1,0 +1,52 @@
+{
+    "task": "clean_a_violin",
+    "scene": "Rs_int",
+    "model": "Qwen2.5-VL-7B-Instruct-NF4",
+    "awareness": null,
+    "plans": [
+        {
+            "step": 1,
+            "action": "place_on_top(rag.n.01_1, violin.n.01_1)",
+            "caution": null
+        },
+        {
+            "step": 2,
+            "action": "wipe(violin.n.01_1, rag.n.01_1)",
+            "caution": null
+        },
+        {
+            "step": 3,
+            "action": "done()",
+            "caution": null
+        }
+    ],
+    "termination": {
+        "reason": "done"
+    },
+    "error_stack": [
+        {
+            "action": "place_on_top(rag.n.01_1, violin.n.01_1)",
+            "err_type": "ActionPrimitiveErrorGroup",
+            "msg": "An error occurred during each attempt of this action.\n\nAttempt 0: EXECUTION_ERROR: Failed to place target object at the desired place (probably dropped).. Additional info: {'dropped object': 'rag_77', 'placement object': 'violin_78', 'predicate': 'RecreatableAbcMeta'}"
+        }
+    ],
+    "execution_goal_condition": {
+        "eval_mode": "bddl",
+        "condition": "(:goal \n        (and \n            (not \n                (covered ?violin.n.01_1 ?dust.n.01_1)\n            )\n        )\n    )",
+        "eval": true
+    },
+    "raw_outputs": [
+        {
+            "step": 1,
+            "content": "```json\n{\n    \"action\": \"PLACE_ON_TOP(rag.n.01_1, violin.n.01_1)\",\n    \"caution\": null\n}\n```"
+        },
+        {
+            "step": 2,
+            "content": "```json\n{\n    \"action\": \"WIPE(violin.n.01_1, rag.n.01_1)\",\n    \"caution\": null\n}\n```"
+        },
+        {
+            "step": 3,
+            "content": "```json\n{\n    \"action\": \"DONE\",\n    \"caution\": null\n}\n```"
+        }
+    ]
+}
